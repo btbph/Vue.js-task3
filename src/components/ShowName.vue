@@ -13,13 +13,14 @@
 <style lang="scss" scoped>
     @import "@/variables.scss";
     .name {
-        display: table-row;
-        line-height: 2;
-        border-radius: 4px;
+      line-height: 2;
+      border-top: 2px solid $borderColor;
+      background-color: transparent;
 
-        &:hover {
-            background-color:$backGRoundHoverItem;
-            cursor: default;
-        }
+      &:hover {
+        background-color:$backGRoundHoverItem;
+        transition: .4s;
+        cursor: default;
+      }
     }
 </style>
